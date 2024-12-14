@@ -14,6 +14,9 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
+- **Node.js** (Version: `22.11.0`)
+- **npm** (Version: `10.9.0`)
+
 -> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
 
 1. **Install Dependencies and Modules:**
@@ -32,9 +35,14 @@ To get started with the bot, follow these steps:
 
 ```json
 {
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "isSkipInvalidProxy": true,
+  "delayEachAccount": [1, 81],
+  "referralCode": "UHX9CQK0",
+  "minPriceToSellTon": 0.1,
+  "doTasks": true
 }
 ```
 
