@@ -41,7 +41,8 @@ To get started with the bot, follow these steps:
   "isSkipInvalidProxy": true,
   "delayEachAccount": [1, 81],
   "referralCode": "UHX9CQK0",
-  "minPriceToSellTon": 0.1
+  "minPriceToSellTon": 0.1,
+  "doTasks": true
 }
 ```
 
